@@ -11,7 +11,7 @@
       }
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>검색 결과 없음</li>';
+      searchResults.innerHTML = '<li>검색 결과가 존재하지 않습니다</li>';
     }
   }
 

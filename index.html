@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if site.posts.size == 0 %}
-  <h2>No post found</h2>
+  <h2>포스터를 찾을수 없습니다</h2>
 {% endif %}
 
 <div class="posts">
@@ -33,7 +33,7 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">더보기</a>
     </article>
   {% endfor %}
 </div>
