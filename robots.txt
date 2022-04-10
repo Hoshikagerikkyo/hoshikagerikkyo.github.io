@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://github.com/Hoshikagerikkyo/Hoshikagerikkyo/sitemap.xml
+Sitemap: https://hoshikagerikkyo.github.io/sitemap.xml
